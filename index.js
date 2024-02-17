@@ -735,3 +735,112 @@ arr2=vgArray.splice(arr1,1)
 console.log(vgArray)*/
 
 
+//let numbers = [32, 52, 42, 56, 58, 86, 5, 87, 100];
+
+//const filterLargedNumber = (currentValue) => {
+
+    //return currentValue > 40;
+//};
+
+//const filteredNumber = numbers.filter((currentValue) => {
+  //  currentValue < 4;
+//});
+
+//console.log(filteredNumber);
+
+
+
+/*let user = [ 
+    {id: 1, name: "jony"},
+    {id: 2, name: "jony1"},
+    {id: 3, name: "jony2"},
+    {id: 4, name: "jony3"}
+];
+
+const filterUser = (cv) => {
+    return cv.name;
+}*/
+
+/*let user = [ 
+    {id: 1, name: "jony"},
+    {id: 2, name: "jony1"},
+    {id: 3, name: "jony2"},
+    {id: 4, name: "jony3"}
+];*/
+
+
+/*const phoneavailable = user.filter((phone) => {return phone.id > 1})
+console.log(phoneavailable);*/
+
+/*for( let i=0; i<user.length;i++){
+    console.log (user[i].name)
+}*/
+
+
+/*let mapUser = user.map((IDname, index) => {return [index, IDname.name]})
+
+console.log(mapUser)
+console.log(user.map((IDname) => {return IDname.id < 2}))*/
+
+/*let numbers = [32, 52, 42, 56, 58, 86, 5, 87, 100];
+const mappedNumbers = numbers.map((value, ind)=>{return [ind*2,value*2]})
+console.log(mappedNumbers)*/
+
+
+/*const surveyData = [
+    { name: "Alice", beverage: "Coffee", cupsPerDay: 3 },
+    { name: "Bob", beverage: "Tea", cupsPerDay: 2 },
+    { name: "Charlie", beverage: "Coffee", cupsPerDay: 1 },
+    { name: "Dana", beverage: "Tea", cupsPerDay: 3 },
+    { name: "Eli", beverage: "Coffee", cupsPerDay: 2 },
+    { name: "Frank", beverage: "Tea", cupsPerDay: 1 }
+  ];*/
+
+  /*const employeeName = surveyData.map((val) =>{return val.name})
+  console.log(employeeName)*/
+
+/*const filterdNames = surveyData.filter((variable) => {return variable.beverage === "Coffee"})
+console.log(filterdNames)
+
+const employeeName = filterdNames.map((val) =>{return val.name})
+
+console.log(employeeName)*/
+
+
+/*let contact = [
+    {id:1, name:"supun", mail:"supkk.com", pn: "0156855"},
+    {id:2, name:"supun01", mail:"supkk01.com", pn: "0256855"},
+    {id:3, name:"supun02", mail:"supkk02.com", pn: "0356855"},
+];*/
+
+//add a contact
+/*const addContact = (cont) => {
+    contact.push(cont)
+};
+
+addContact({id:4, name:"supun04", mail:"supkk04.com", pn: "0456855"});
+
+console.log(contact)*/
+
+//remove contact
+/*const removeContact = (id) => {
+    contact = contact.filter((singlecon) =>{ return singlecon.id !== id} )
+};*/
+
+/*removeContact(2);
+console.log(contact)*/
+
+//function to filter names
+
+/*console.log (contact.filter((con) => {con.contact("supun")})
+
+const filtercont = (name) => {
+    return contact.filter((con) => con.contact(name)
+    )
+    console.log (
+}
+//remove lasrt added contact
+
+
+
+console.log (filtercont("supun"))*/
